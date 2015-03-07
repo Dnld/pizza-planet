@@ -19,4 +19,22 @@ app.controller('MainController', ['$scope', function($scope) {
     }
   ];
 
+  $scope.mains = [
+    {
+      name: 'Pasta in Meat Sauce',
+      description: 'Lots of pasta, with lots of meat sauce.',
+      price: 14.95
+    },
+    {
+      name: 'Fish',
+      description: 'Delicious fish with veggies on the side.',
+      price: 13.95
+    },
+    {
+      name: 'Steak',
+      description: '400oz T-bone.',
+      price: 34.94
+    }
+  ];
+
 }]);
