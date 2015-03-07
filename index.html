@@ -6,12 +6,12 @@
     <link href="css/main.css" rel="stylesheet" />
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
   </head>
-  <body>
+  <body ng-app="PizzaPlanetApp">
     <div class="header">
       <h1><span>Pizza</span><span>Planet</span></h1>
     </div>
 
-    <div class="main">
+    <div class="main" ng-controller="MainController">
       <div class="container">
         <h1>Specials for {{ today | date }}</h1>
         
